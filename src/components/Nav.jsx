@@ -2,7 +2,7 @@ import { headerLogo } from '../assets/images'
 import { hamburger } from '../assets/icons'
 import { navLinks } from '../constants/index'
 
-// pending to add functionality to the hamburger menu
+// pending to implement hamburger menu
 const Nav = () => {
   return (
     <header className="padding-x py-8 absolute z-10 w-full">

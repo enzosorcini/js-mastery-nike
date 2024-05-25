@@ -7,6 +7,7 @@ import { bigShoe1 } from "../assets/images"
 
 import { useState } from "react"
 
+//pending to implement removing the shoe card and cards' selection on smaller devices
 const Hero = () => {
   const [ bigShoeImg, setBigShoeImg] = useState(bigShoe1)
 
