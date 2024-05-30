@@ -6,7 +6,7 @@ const SuperQuality = () => {
   return (
     <section id="about-us" className="w-full flex justify-between items-center max-lg:flex-col gap-10 max-container">
       <div className="flex flex-col flex-1">
-        <h2 className="text-4xl font-palanquin font-bold lg:max-w-lg">We Provide you <span className="text-coral-red">Super Quality</span> Shoes</h2>
+        <h2 className="text-4xl font-palanquin font-bold lg:max-w-lg">We Provide You <span className="text-coral-red">Super Quality</span> Shoes</h2>
         <p className="lg:max-w-lg mt-4 info-text">Ensuring premium comfort and style, our meticulously crafted footwear is designed to elevate your experience, providing you with unmatched quality, innovation and a touch of elegance.</p>
         <p className="lg:max-w-lg mt-6 info-text">Our dedication to detail and excellence ensures your satisfaction.</p>
         
