@@ -1,9 +1,16 @@
 import { headerLogo } from '../assets/images'
 import { hamburger } from '../assets/icons'
 import { navLinks } from '../constants/index'
+import { useState } from 'react'
 
 // pending to implement hamburger menu
 const Nav = () => {
+  const [ nav, setNav ] = useState(false)
+
+  console.log('nav status', nav);
+
+  const handleClick = () => setNav(!nav)
+
   return (
     <header className="padding-x py-8 absolute z-10 w-full">
       <nav className="flex justify-between items-center max-container">
@@ -20,7 +27,10 @@ const Nav = () => {
           ))}
         </ul>
         <div className='lg:hidden'>
-          <img src={hamburger} alt="Hamburger" width={25} height={25} />
+          <button onClick={handleClick}>
+            {nav ? <div>X</div> : <img src={hamburger} alt="Hamburger" width={25} height={25} />}
+          </button>
+          {nav ? <div>Hey</div> : null}
         </div>
       </nav>
     </header>
